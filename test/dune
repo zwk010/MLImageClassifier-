@@ -1,0 +1,4 @@
+(test
+ (name test_network)
+ (deps (glob_files_rec ../data/*))
+ (libraries ounit2 network))
